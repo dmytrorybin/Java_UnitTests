@@ -13,7 +13,7 @@ public class ArithmeticOperationsTest {
     public void add() throws Exception {
         ArithmeticOperations ao = new ArithmeticOperations();
         double res = ao.add(5, 7);
-        if(res != 12) Assert.fail();
+        Assert.assertTrue(res == 12);
     }
 
     @Test
