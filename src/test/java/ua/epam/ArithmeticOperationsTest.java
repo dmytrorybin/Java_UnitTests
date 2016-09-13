@@ -19,27 +19,37 @@ public class ArithmeticOperationsTest {
     }
 
     @Test
-    public void add() throws Exception {
+    public void testAdd() throws Exception {
         double res = ao.add(5, 7);
         Assert.assertTrue(res == 12);
     }
 
     @Test
-    public void deduct() throws Exception {
+    public void testDeduct() throws Exception {
         double res = ao.deduct(7, 5);
         Assert.assertEquals(res, 2, 0);
     }
 
     @Test
-    public void mult() throws Exception {
+    public void testMult() throws Exception {
         double res = ao.mult(5, 3);
         if(res != 15) Assert.fail();
     }
 
     @Test
-    public void dev() throws Exception {
-        double res = ao.dev(14, 7);
+    public void testDiv() throws Exception {
+        double res = ao.div(14, 7);
         if(res != 2) Assert.fail();
+    }
+
+    @Test (expected = ArithmeticException.class)
+    public void testDivException() {
+        ao.div(14.0, 0.0);
+    }
+
+    @Test (timeout = 1000)
+    public void timeTest() {
+        ao.div(14, 7);
     }
 
 }
