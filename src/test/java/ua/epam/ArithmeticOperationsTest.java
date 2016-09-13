@@ -1,9 +1,10 @@
 package ua.epam;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.rules.ExpectedException;
+import org.junit.rules.Timeout;
+
+import java.sql.Time;
 
 import static org.junit.Assert.*;
 
@@ -12,6 +13,12 @@ import static org.junit.Assert.*;
  */
 public class ArithmeticOperationsTest {
     public static ArithmeticOperations ao;
+
+    @Rule
+    public final ExpectedException exp = ExpectedException.none();
+
+    @Rule
+    public Timeout timeout = Timeout.millis(1000);
 
     @BeforeClass
     public static void runT() {
@@ -42,14 +49,19 @@ public class ArithmeticOperationsTest {
         if(res != 2) Assert.fail();
     }
 
-    @Test (expected = ArithmeticException.class)
+    //@Test (expected = ArithmeticException.class)
+    @Test
     public void testDivException() {
+        exp.expect(ArithmeticException.class);
         ao.div(14.0, 0.0);
     }
 
-    @Test (timeout = 1000)
+   // @Test (timeout = 1000)
+    @Test
     public void timeTest() {
         ao.div(14, 7);
     }
+
+
 
 }

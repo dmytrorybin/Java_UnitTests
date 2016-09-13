@@ -52,15 +52,14 @@
       <file leaf-file-name="ArithmeticOperationsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/ArithmeticOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,7 +243,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticOperationsTest.timeTest">
+  <component name="RunManager" selected="JUnit.ArithmeticOperationsTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ua.epam.Main" />
@@ -597,9 +596,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest.timeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest.testDivException" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest.timeTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ArithmeticOperationsTest.add" />
       </list>
     </recent_temporary>
@@ -618,9 +617,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArithmeticOperationsTest - 2016.09.13 at 15h 24m 14s.xml">
-      <configuration name="ArithmeticOperationsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArithmeticOperationsTest - 2016.09.13 at 15h 51m 36s.xml">
       <configuration name="ArithmeticOperationsTest" configurationId="JUnit" />
     </history-entry>
@@ -636,10 +632,13 @@
     <history-entry file="ArithmeticOperationsTest - 2016.09.13 at 16h 05m 44s.xml">
       <configuration name="ArithmeticOperationsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArithmeticOperationsTest_add - 2016.09.13 at 15h 34m 07s.xml">
-      <configuration name="ArithmeticOperationsTest.add" configurationId="JUnit" />
+    <history-entry file="ArithmeticOperationsTest - 2016.09.13 at 16h 35m 04s.xml">
+      <configuration name="ArithmeticOperationsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArithmeticOperationsTest_testDivException - 2016.09.13 at 16h 21m 03s.xml">
+      <configuration name="ArithmeticOperationsTest.testDivException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticOperationsTest_testDivException - 2016.09.13 at 16h 31m 53s.xml">
       <configuration name="ArithmeticOperationsTest.testDivException" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArithmeticOperationsTest_timeTest - 2016.09.13 at 16h 23m 48s.xml">
@@ -660,7 +659,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -732,15 +731,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/epam/ArithmeticOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
           </folding>
         </state>
       </provider>
