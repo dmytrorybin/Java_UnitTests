@@ -20,7 +20,7 @@ public class ArithmeticOperationsTest {
     public void deduct() throws Exception {
         ArithmeticOperations ao = new ArithmeticOperations();
         double res = ao.deduct(7, 5);
-        if(res != 2) Assert.fail();
+        Assert.assertEquals(res, 2, 0);
     }
 
     @Test
