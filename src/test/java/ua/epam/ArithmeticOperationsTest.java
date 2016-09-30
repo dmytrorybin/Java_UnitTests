@@ -1,4 +1,4 @@
-package ua.epam;
+package ua.app;
 
 import org.junit.*;
 import org.junit.rules.ExpectedException;
